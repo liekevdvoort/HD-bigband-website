@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108691787-1"></script>
+	<script>
+ 	 window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+
+  	gtag('config', 'UA-108691787-1');
+	</script>
+<head profile="http://www.w3.org/2005/10/profile">
+	<link rel="icon"
+	type="image.png"
+	href="images/favicon.png">
+	<title>Contact</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="stylesheet.css" type="text/css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="keywords" content="heeswijk, dinther, heeswijk-dinther, bigband, hdbigband, hd bigband, concert, contact,">
+	<meta name="description" content="">
+</head>
+<body>
+	<header>
+		<div class="logo-wrapper">
+			<a href="/">
+				<h1><img src="images/logo.png"> HD Bigband</h1>
+			</a>
+		</div>
+		<div class="nav">
+			<label for="toggle">&#9776;</label>
+        	<input type="checkbox" id="toggle"/>
+        	<div class="menu">
+        		<a href="index">HOME</a>
+            	<a href="over_ons">OVER ONS</a>
+            	<a href="concerten">CONCERTEN</a>
+            	<a href="vacatures">VACATURES</a>
+            	<a class="activepage" href="contact">CONTACT</a>
+            </div>
+		</div>
+	</header>
+	<div class="headerfill"></div>
+	<div id="contentcontact">
+	<div id="contact">
+		<h2>Contact</h2>
+		<p>
+			<br />
+			<strong>Waar kan je ons vinden?</strong>
+			<br>
+			<a target="blank" href="https://www.google.nl/maps/dir//Abdijstraat+53,+Heeswijk+Dinther/@51.6542695,5.4694127,16z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x47c6e409d783a351:0x2ef0e00f0357dc92!2m2!1d5.4737901!2d51.6542696?hl=nl">De Muziekfabriek</a>
+			<br />
+			<a target="blank" href="https://www.google.nl/maps/dir//Abdijstraat+53,+Heeswijk+Dinther/@51.6542695,5.4694127,16z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x47c6e409d783a351:0x2ef0e00f0357dc92!2m2!1d5.4737901!2d51.6542696?hl=nl">Heeswijk-Dinther</a>
+			<br>
+			<a target="blank" href="https://www.google.nl/maps/dir//Abdijstraat+53,+Heeswijk+Dinther/@51.6542695,5.4694127,16z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x47c6e409d783a351:0x2ef0e00f0357dc92!2m2!1d5.4737901!2d51.6542696?hl=nl">Abdijstraat 53</a>
+			<br><br>
+			<strong>Waneer repeteren we?</strong>
+			<br>
+			Dinsdag avond<br>
+			20:00 tot 22:00
+			<br><br>
+			<strong>E-mail</strong>
+			<br />
+			<a href="mailto:hdbigband@gmail.com">hdbigband@gmail.com</a>
+			<br><br />
+			<strong>Telefoon</strong>
+			<br />
+			<a href="tel:0634141671">06 3414 1671</a> 
+			</p>
+
+			</div>
+			<div id="map"></div>
+	</div>
+	<script type="text/javascript"> 
+		function initMap() {
+			var location = {lat: 51.655907, lng: 5.473302};
+			var map = new google.maps.Map(document.getElementById("map"), {
+				zoom: 12,
+				center: location
+			});
+			var marker = new google.maps.Marker({
+				position: location,
+				map: map
+			});
+		}	
+	</script>
+	<script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0mExGOU939w1KZ-qx6sjacjNPezeUQT8&callback=initMap">
+	</script>
+	</body>
+	<footer>
+		<section class="socialicons">
+			<a target="blank" href="https://www.youtube.com/channel/UCldL7TCmceoNi8g4ErHYZVg"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+			<a target="blank" href="https://www.facebook.com/hdbigband/"><i class="fa fa-facebook-official social" aria-hidden="true"></i></a>
+		</section>
+	</footer>
+</html>
